@@ -12,15 +12,15 @@ print("Start")
 for subfolderx in ["train","test"]:
 
     # Load the annotations from the provided text file
-    annotations_file_path = f"/home/frinksserver/subhra/paddleOCR_data_preparation/split_det_text/{subfolderx}.txt"
+    annotations_file_path = f"/home/frinksserver/Deepak/OCR/data_preparation/paddleOCR_data_preparation/split_det_text/{subfolderx}.txt"
     print(f"Loading annotations from: {annotations_file_path}")
 
     # Directory where the images are located
-    img_dir = f"/home/frinksserver/subhra/paddleOCR_data_preparation/split_det_text/{subfolderx}"
+    img_dir = f"/home/frinksserver/Deepak/OCR/data_preparation/paddleOCR_data_preparation/split_det_text/{subfolderx}"
     print(f"Images directory: {img_dir}")
 
     # Process each image file
-    output_dir = f"/home/frinksserver/subhra/paddleOCR_data_preparation/detection_data_check_plotted/{subfolderx}"
+    output_dir = f"/home/frinksserver/Deepak/OCR/data_preparation/paddleOCR_data_preparation/detection_data_check_plotted/{subfolderx}"
     os.makedirs(output_dir, exist_ok=True)
 
     ### ------------------------------------------------------------------------------------

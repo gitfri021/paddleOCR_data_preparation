@@ -4,8 +4,8 @@ import shutil
 from tqdm import tqdm
 
 # Define the directories
-root_folder = "/home/frinksserver/subhra/paddleOCR_data_preparation/separated"  # Root folder containing all subfolders with Label.txt
-image_folder = "/home/frinksserver/subhra/paddleOCR_data_preparation/combined"
+root_folder = "/home/frinksserver/Deepak/OCR/data_preparation/paddleOCR_data_preparation/separated"  # Root folder containing all subfolders with Label.txt
+image_folder = "/home/frinksserver/Deepak/OCR/data_preparation/paddleOCR_data_preparation/combined"
 output_file = "combined_paddle.txt"
 os.makedirs(image_folder, exist_ok=True)
 

@@ -4,8 +4,8 @@ import numpy as np
 from tqdm import tqdm
 
 # Define paths
-input_master_folder = '/home/frinksserver/subhra/paddleOCR_data_preparation/split_recog_text'  # Update with the actual path
-output_master_folder = '/home/frinksserver/subhra/paddleOCR_data_preparation/recog_data_check'
+input_master_folder = '/home/frinksserver/Deepak/OCR/data_preparation/paddleOCR_data_preparation/split_recog_text'  # Update with the actual path
+output_master_folder = '/home/frinksserver/Deepak/OCR/data_preparation/paddleOCR_data_preparation/recog_data_check'
 
 # Ensure output directory exists
 os.makedirs(output_master_folder, exist_ok=True)

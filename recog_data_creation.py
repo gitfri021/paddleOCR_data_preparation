@@ -4,8 +4,8 @@ import cv2
 from tqdm import tqdm
 
 # Paths
-input_master_folder = '/home/frinksserver/subhra/paddleOCR_data_preparation/split_det_text'
-output_master_folder = '/home/frinksserver/subhra/paddleOCR_data_preparation/split_recog_text'
+input_master_folder = '/home/frinksserver/Deepak/OCR/data_preparation/paddleOCR_data_preparation/split_det_text'
+output_master_folder = '/home/frinksserver/Deepak/OCR/data_preparation/paddleOCR_data_preparation/split_recog_text'
 
 # Ensure output directories exist
 os.makedirs(output_master_folder, exist_ok=True)

@@ -52,6 +52,9 @@ split_det_text
 recog_data_check
 split_recog_text
 detection_data_check_plotted
+yolo_split_det_text
+yolo_annotation_check
+faster_rcnn_annotation_check
 
 .history/
 .ipynb_checkpoints

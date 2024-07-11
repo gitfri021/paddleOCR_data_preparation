@@ -12,6 +12,9 @@ python train_test_split.py
 3. to check annotaions after spliting: change necessary dirs <br>
 python text_annotation_plotting.py
 
+3. a: if you want to create annotations for yolo and fasterrcnn<br>
+python paddle2yolofaster.py
+
 #### text recognition data creation process
 4. to create text recognition data: change necessary dirs <br>
 python recog_data_creation.py

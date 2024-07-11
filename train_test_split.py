@@ -5,7 +5,7 @@ from tqdm import tqdm
 
 # Define the input file and output directories
 input_file = "combined_paddle.txt"
-output_dir = "/home/frinksserver/subhra/paddleOCR_data_preparation/split_det_text"
+output_dir = "/home/frinksserver/Deepak/OCR/data_preparation/paddleOCR_data_preparation/split_det_text"
 train_dir = os.path.join(output_dir, "train")
 test_dir = os.path.join(output_dir, "test")
 
